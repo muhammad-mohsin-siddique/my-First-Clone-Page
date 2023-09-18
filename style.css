@@ -1,0 +1,108 @@
+ body{
+    padding: 72px 0px 112px;
+    background-color: #F0F2F5;
+}
+.main-container{
+    margin: 0px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.Facebook-content{
+    padding: 0;
+    width: 500px;
+    font-size: 17px;
+}
+img{
+    width: 301px;
+    height: 100px;
+    margin: 0px;
+}
+
+.heading{
+    margin-top: -20px;
+    margin-left: 37px;
+    padding: 0px 0px 20px;
+    width: 100%;
+    font-weight: normal;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.form{
+
+    margin-top: 60px;
+    width: 375px;
+    height: 360px;
+    margin-right: 80px; 
+    background-color: white;
+    text-align: center;
+    padding: 0px 15px;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form input, button{
+    padding: 15px 10px;
+    margin-top: 20px;
+    font-size: 17px;
+    border-radius: 6px;
+    border-color: rgb(185, 185, 185);
+    border-width: 0.5px;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 90%;
+}
+.login-in{
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    margin-bottom: 15px;
+    width: 95%;
+    font-weight: bold;
+}
+.login-in:hover{
+
+    cursor: pointer;
+}
+.creat-account{
+    background-color: #42b72a;
+    color: white;
+    border: none;   
+    width: auto;
+}
+.creat-account:hover{
+
+    cursor: pointer;
+}
+.forgot-pswd{
+    font-size: 24px;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 17px;
+    font-weight: 500px;
+}
+.forgot-pswd:hover{
+
+    text-decoration: underline;
+}
+.creat-account{
+    font-weight: bold;
+    font-size: 18px;
+}
+.last-para{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}  
+
+.last-para:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 1020px) {
+    
+    .main-container{
+        margin: 0px 40px;
+        display: block;
+        align-items: center;
+        justify-content: space-around; 
+        padding-left: 100px;
+    }
+}
